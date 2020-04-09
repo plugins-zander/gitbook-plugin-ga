@@ -7,10 +7,10 @@
     "browser": "./_assets/plugin.js",
     "version": "2.0.0",
     "engines": {
-        "gitbook": ">=4.0.0-alpha.0"
+        "gitbook": ">=3.2.3"
     },
     "devDependencies": {
-        "gitbook-plugin": "^4.0.0-alpha.4"
+        "gitbook-plugin": "^3.2.3"
     },
     "scripts": {
       "prepublish": "gitbook-plugin build ./src/index.js ./_assets/plugin.js"
